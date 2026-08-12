@@ -1,6 +1,6 @@
 # Flavor Network Analysis
 
-A network science project analysing the **Flavor Network** — a graph connecting ingredients that share chemical flavor compounds — to uncover structural patterns in how humans combine foods, using centrality analysis, small-world testing, community detection, robustness/attack simulation, and k-core role analysis.
+A network science project analysing the **Flavor Network**, a graph connecting ingredients that share chemical flavor compounds, to uncover structural patterns in how humans combine foods, using centrality analysis, small-world testing, community detection, robustness/attack simulation, and k-core role analysis.
 
 This project was completed as part of a Network Analysis course project. It builds on the dataset and findings of Ahn et al.'s *"Flavor network and the principles of food pairing"* (Scientific Reports, 2011), extending the original paper into areas it did not cover.
 
@@ -8,7 +8,7 @@ This project was completed as part of a Network Analysis course project. It buil
 
 ## Project Overview
 
-The task was to analyse the backbone of the flavor network — a graph where nodes are ingredients and edges represent shared flavor compounds — and combine it with real-world recipe data to study both its structure and its relationship to actual cooking practice.
+The task was to analyse the backbone of the flavor network, a graph where nodes are ingredients and edges represent shared flavor compounds, and combine it with real-world recipe data to study both its structure and its relationship to actual cooking practice.
 
 The dataset, sourced from Zenodo, contained:
 
@@ -38,7 +38,7 @@ The project went beyond replicating the original paper's findings, focusing on f
 | Degree assortativity | -0.1563 (disassortative) |
 | Small-world coefficient (σ) | **18.45** |
 
-A small-world coefficient of σ ≈ 18.5 confirms the network is a **small world**: high clustering combined with short average path lengths (≈4.27), meaning most ingredients are only a few "flavor steps" apart.
+A small-world coefficient of σ ≈ 18.5 confirms the network is a **small world**: high clustering combined with short average path lengths (≈4.27), meaning most ingredients are only a few steps apart.
 
 ---
 
@@ -58,11 +58,11 @@ The network follows a heavy-tailed, hub-dominated structure. The most connected 
 | 6 | Apple | 25 |
 | 7 | Blue cheese | 24 |
 
-These hubs also dominated betweenness and closeness centrality, indicating they act as flavor "bridges" connecting otherwise distant parts of the network.
+These hubs also dominated betweenness and closeness centrality, indicating they act as bridges connecting otherwise distant parts of the network.
 
 ### Assortativity
 
-The network is **disassortative** (coefficient ≈ -0.156): high-degree hub ingredients tend to connect to low-degree, more specialized ingredients rather than to each other — a pattern common in biological and food networks.
+The network is **disassortative** (coefficient ≈ -0.156): high-degree hub ingredients tend to connect to low-degree, more specialized ingredients rather than to each other, a pattern common in biological and food networks.
 
 ---
 
@@ -254,7 +254,10 @@ Potential improvements include:
 
 ## Authors
 
-Group F
+Lowie De Wever
+Darija Avramoska
+Nina Grozina
+Sofiya Vorobyeva
 
 ---
 
