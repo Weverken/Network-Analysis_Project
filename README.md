@@ -219,7 +219,7 @@ This project extended Ahn et al.'s original analysis into four areas:
 1. Community detection
 2. Network robustness and attack sensitivity
 3. Ingredient role analysis (core vs. periphery)
-4. Surprise pairings — ingredients highly connected by shared compounds but rarely used together
+4. Surprise pairings, ingredients highly connected by shared compounds but rarely used together
 
 ---
 
